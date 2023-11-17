@@ -3,6 +3,8 @@
 based on Flask 1 Users, Sessions, and Authentication by Mateo Prigl
 app.pluralsight.com/library/courses/flask-users-sessions-authentication/description
 
+Note: the exercise files for this are set up in individual example folders (apparently no end final product folder)
+
 Steps
 python -m venv .venv
 source .venv/bin/activate
