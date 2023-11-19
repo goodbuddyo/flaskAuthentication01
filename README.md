@@ -14,15 +14,16 @@ source .venv/bin/activate
   Werkzeug 2.3.7
 
 pip install -r requirements.txt
+# note needed to remove this requirement line - see course discussion
+# pkg-resources==0.0.0
+# also in requirements, change to WTForms==3.0.0
+# w/ v 2.3.1 could not - from wtforms.fields import EmailField
 
-flask --app app run --debug -h localhost -p 5555
-getting error 
-__init__.py", line 3, in <module>
-    from flask_sqlalchemy import SQLAlchemy
-ModuleNotFoundError: No module named 'flask_sqlalchemy'
+flask run -p 5555  --debugger
 
 
-pip install -U Flask-SQLAlchemy
 
+Internal Server Error
+The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
 
 
