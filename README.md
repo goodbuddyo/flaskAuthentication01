@@ -26,4 +26,5 @@ flask run -p 5555  --debugger
 Internal Server Error
 The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
 
-
+20231128
+going to pause this project to see if Django offers a simpler email/authentication option
